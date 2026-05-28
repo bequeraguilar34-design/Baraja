@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎰Cartas de Loteria 🎰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎰 Barja de Loteria 🎰</h1>
+        <div class="contador" id="contador">Cartas listas: 0</div>
+        
+        <div class="card-display" id="cardDisplay">
+            <span class="placeholder-text">Presiona el botón verde para iniciar la baraja</span>
+        </div>
+        
+        <div class="button-group">
+            <button id="btnSiguiente" class="btn-next" onclick="siguienteCarta()">Siguiente Carta ➡️</button>
+            <button id="btnReiniciar" class="btn-reset" onclick="reiniciarJuego()">🔄 Reiniciar Baraja</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
